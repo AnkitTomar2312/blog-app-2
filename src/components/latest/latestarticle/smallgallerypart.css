@@ -1,0 +1,25 @@
+@media only screen and (min-width: 400px) and (max-width: 600px){
+    .LATsidecontainer{
+       margin: 4rem 0 4rem 0;
+    }
+    .LATimg{
+        display: flex;
+        align-items: center;
+    }
+    .LATimg>img{
+        width: 48vw;
+    }
+    .LATtext{
+        
+        width: 67vw;
+    }
+    .LAunImgnum2{
+        width: 67vw;
+       
+    }
+    .LATtexth1{
+        font-size: 27px;
+        margin-bottom: 60px;
+    
+    }
+}

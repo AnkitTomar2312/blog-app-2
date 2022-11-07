@@ -1,0 +1,17 @@
+.lateststorie{
+    margin-top: 4em;
+    margin-bottom: 7em;
+}
+
+
+.disc{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.disc1{
+    width: 25vw;
+}

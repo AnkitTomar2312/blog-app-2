@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.mainHead{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+}
+.tilted{
+  
+    transform: rotate(-90deg);
+    margin-top: 2em;
+    font-size: 24px; 
+
+}
+    
+.heading{
+    font-size: 3rem;
+    font-weight: bolder;
+   margin-top: 2.5rem;
+    
+}
+.demo{
+   visibility: hidden;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .header{
+        align-items: flex-start;
+        justify-content: space-between;
+        box-shadow:  0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.3);
+        width: 134.5vw;
+        position: relative;
+
+       
+    }
+   
+    .mainHead{
+        margin-left: 3rem;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    .tilted{
+        font-size: 1rem;
+    }
+    .heading {
+       
+        margin-top: 2rem;
+        font-size: 2rem;
+    
+    }
+    .topbar{
+       position: absolute;
+    }
+
+    .demo{
+        position: absolute;
+        background-color: black;
+        right: 2rem;
+        bottom: 2rem;
+        width: 50px;
+        height: 40px;
+        background-image: url("https://w7.pngwing.com/pngs/639/1013/png-transparent-hamburger-button-computer-icons-drop-down-list-fast-food-menu-rectangle-share-icon-pancake-thumbnail.png");
+        background-size: cover;
+        opacity: 0.5;
+        visibility: visible;
+    }
+  }

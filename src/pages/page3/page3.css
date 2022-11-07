@@ -1,0 +1,297 @@
+.page3{
+    
+   
+}
+.headerP3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    box-shadow:  0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.3);
+    
+}
+.headerP3Text{
+    display: flex;    
+    margin-left: 5rem;
+}
+
+.the{
+    transform: rotate(-90deg);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.siren{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.getStarted{
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+    border: 2px solid #03A87C;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.mainP3{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clapping{
+    position: absolute;
+    z-index: 1;
+}
+.mainP31{
+    display: flex;
+    flex-direction: column;
+}
+.userInfoP3{
+    display: flex;
+    width: 40vw;
+    margin-top: 3rem;
+}
+
+.userPic>img{
+ width: 7vw;
+ border-radius: 50%;
+ margin-right: 1rem;
+}
+
+.userData{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+ width: 32vw;
+}
+
+.userName{
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+.userSocial{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 6vw;
+}
+.defi{
+    width: 40vw;
+    margin-top: 3rem;
+}
+.defi>img{
+    width: 40vw;
+}
+.defiText{
+    margin-top: 3rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.screenShot>img{
+    width: 40vw;
+    margin-top: 3rem;
+}
+
+.anno{
+    
+    margin-top: 2rem;
+}
+.annoText{
+    background-color: #F2F2F2;
+    color: #A2A2A2;
+    margin-right: 1rem;
+    padding: 0 0.4rem 0 0.4rem;
+    border-radius: 5px;
+}
+.likes{
+    margin-top: 1.5rem;
+}
+.icon{
+    margin-right: 0.4rem;
+}
+
+.writtenBy{
+    margin-top: 3rem;
+    padding: 2rem 0 ;
+    border-top: 2px solid rgba(0, 0, 0, 0.1) ;
+    border-bottom:2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+}
+
+.more{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+   
+}
+
+.moreText{
+    width: 90vw;
+
+}
+.cardHolder{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.card{
+    width: 25vw;
+    border: 0;
+   
+}
+.card>img{
+    width: 25vw;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.moreUser{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+.mobile{
+    display: none;
+}
+
+.userPicmore{
+    width: 4.5vw;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+   .page3{
+    width: 100vw;
+    
+   }
+    .headerP3Text{
+       margin-left: 1rem;
+        
+    }
+   
+    .siren{
+        font-size: 3rem;
+      
+    }
+    
+    .getStarted{
+       margin-right: 1rem;
+        padding: 0 2rem;
+    }
+    .ways{
+        font-size: 1.5rem;
+    }
+    .userInfoP3{
+        width: 95vw;
+    }
+    .userData{
+        width: 57vw;
+        align-items: center;
+       
+    }
+    .userName1{
+        font-size: 1rem;
+    }
+    .postdate{
+        font-size: 1rem;
+    }
+    .userPic>img{
+        width: 6rem;
+        margin-left: 1rem;
+       
+    }
+    .userSocial{
+       display: none;
+    }
+    .defi{
+       
+        width: 95vw;
+    }
+    .defi>img{
+        width: 95vw;
+    }
+    
+    .screenShot>img{
+        width: 95vw;
+    }
+    .annoText{
+        margin-right: 1rem;
+        padding: 0 0.4rem 0 0.4rem;
+        border-radius: 5px;
+        font-size: 1.4rem;
+    }
+    .moreFrom{
+        font-size: 1.8rem;
+    }
+    .moreText{
+        width: 95vw;
+    }
+    .cardHolder{
+        flex-direction: column;
+        width: 95vw;
+       
+    }
+    .card{
+        width: 95vw;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .userPicmore{
+        display: none;
+    }
+    .webView{
+        display: none;
+    }
+    .tag{
+        display: none;
+    }
+   
+    .mobileV{
+        display: none;
+    }
+   .userData1{
+    width: 0;
+   }
+   .userNameMob{
+   
+    margin-top: 7rem;
+   }
+   .card{
+   margin-top: 2rem;
+   border: 0;
+   height: 30vh;
+   }
+   .mobile{
+    margin-top: 1rem;
+    display: block;
+   }
+   .card>img{
+    width: 26vw;
+    margin-left: 5px;
+    border-radius: 0;
+    object-fit: cover;
+   }
+   .writterName{
+    margin-bottom: 0;
+    color: #939393;
+    margin-top: 6rem;
+    
+   }
+   
+  }

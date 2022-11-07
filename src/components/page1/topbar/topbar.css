@@ -1,0 +1,60 @@
+hr{
+    opacity: 0.5;
+    width: 84%;
+    margin-left: 8em;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 9em;
+    padding-bottom: 25px;
+}
+
+.listItem{
+    margin-left: 10vw;
+    margin-right: 0px;
+    margin-top: 37px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+    .mobnav{
+        display: none;
+    }
+    .topbar{
+       
+        width: 134vw;
+       
+        
+       }
+    .mobLI{
+        display: none;
+    }
+    .topList{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 134vw;
+        padding-right: 2rem;
+        display: none;
+        background-color: white;
+        margin-top: 10rem;
+        
+        
+    }
+    .topList li {
+        margin: 0 0 3rem 0;
+    }
+   
+}

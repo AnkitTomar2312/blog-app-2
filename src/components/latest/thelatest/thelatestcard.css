@@ -1,0 +1,36 @@
+
+.img1{
+    width: 380px;
+}
+
+.img1>img{
+    width: 380px;
+    height: 200px;
+    object-fit: cover;
+    border-radius:10px 10px 0 0 ;
+    padding-bottom: 15px;
+}
+.thelatestText{
+    padding: 15px;
+}
+.thelatestHead{
+    opacity: 0.6;
+    padding-bottom: 10px;
+}
+.thelatestPara{
+    opacity: 0.5;
+    padding-bottom: 2rem;
+}
+
+.travel{
+   padding-right: 2rem;
+   font-size: 1rem;
+   font-weight: bold;
+   opacity: 0.8;
+}
+.travelDate{
+    padding-right: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0.5;
+ }

@@ -1,0 +1,62 @@
+.begin{
+    
+    margin: 2em 0 1.5em 0;
+     width: 100%;
+    
+ }
+ .LAcontainer{
+     display: flex;
+     margin-bottom: 1.7em;
+     justify-content: space-between;
+     width: 51vw;
+     height: 33vh;
+ }
+ .LAimg>img{
+     width: 250px;
+     border-radius: 5px;
+ }
+ .LAtext{
+     width: 33vw;
+ }
+ .LAtexth1{
+     padding-bottom: 20px;
+ }
+ .LAtextp{
+     margin-left: 20px;
+     font-size: small;
+     padding-bottom: 40px;
+ }
+
+ @media only screen and (min-width: 400px) and (max-width: 600px) {
+    .LAcontainer{
+        width: 29.7rem;
+        justify-content: flex-start;
+        height: 29vh;
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+    }
+   .LAimg>img{
+        width: 10rem;
+        height: 12rem;
+        object-fit: cover;
+        border-radius: 0;
+   }
+   .LAtext{
+    
+    width: 79vw;
+    margin-left: 10px;
+   }
+   .LAtexth1 {
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+   }
+   .LAtextp {
+    margin-left: 0;
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+    color: #908D8D;
+   }
+   .MobileGujju{
+    display: none;
+   }
+}

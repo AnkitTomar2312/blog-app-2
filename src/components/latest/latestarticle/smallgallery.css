@@ -1,0 +1,58 @@
+.LAunImg{
+    
+    margin-top: 15px;
+    
+}
+
+.Mobsmall{
+    font-size: "1.5em";
+     padding-bottom: "1em" ;
+}
+
+.LAunImg>img{
+    padding-bottom: 1em;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.LAunImgnum{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.LAunImgnum1{
+    font-size: 4.5em;
+    opacity: 0.3;
+}
+.LATsidecontainer{
+    display: flex;
+    text-align: justify;
+}
+.LATimg>img{
+    width: 10vw;
+    object-fit: cover;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+.LATtexth1{
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+.LAunImgnum2{
+    display: flex;
+    justify-content: space-between;
+    width: 19vw;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+    .LAunImg>img{
+        width: 118.5vw;
+        height: 62vh;
+        border-radius: 0;
+        padding-bottom: 4rem;
+    }
+    .Mobsmall{
+        padding-bottom: 2rem;
+    }
+}

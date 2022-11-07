@@ -1,0 +1,86 @@
+.gallery{
+    display: flex;
+    margin-top: 3em;
+    position: relative;
+}
+
+.pic1>img{
+    width: 51vw;
+    height: 71vh;
+    background-repeat: no-repeat;
+    margin-left: 8em;
+    border-radius: 10px;
+}
+.pic1>h2{
+    position: absolute;
+    padding-left: 7em;
+    color: white;
+    font-size: 28px;
+    top: 13em;
+    font-weight: lighter;
+}
+.pic1>p{
+    position: absolute;
+    padding-left: 14em;
+    color: white;
+    font-size: 14px;
+    top: 30em;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+.rigthCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1em;
+    
+}
+
+.pic2>img{
+    width: 31vw;
+    height: 35vh;
+    border-radius: 10px;
+
+}
+
+.pic2>h2{
+    position: absolute;
+    padding-left: 1em;
+    color: white;
+    font-size: 28px;
+    top: 4em;
+    font-weight: lighter;
+}
+.pic2>p{
+    position: absolute;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+    top: 14em;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+.pic3>img{
+    width: 31vw;
+    height: 35vh;
+    border-radius: 10px;
+
+}
+.pic3>h2{
+    position: absolute;
+    padding-left: 1em;
+    color: white;
+    font-size: 28px;
+    top: 13em;
+    font-weight: lighter;
+}
+.pic3>p{
+    position: absolute;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+    top: 32em;
+    font-weight: lighter;
+    opacity: 0.5;
+}
